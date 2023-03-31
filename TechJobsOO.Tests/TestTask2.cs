@@ -1,9 +1,9 @@
 ﻿
 namespace TechJobsOO.Tests
 {
-	[TestClass]
-	public class TestTask2
-	{
+    [TestClass]
+    public class TestTask2
+    {
         //This class tests the setup of Location, CoreCompetency, and PositionType Classes.
 
         // Testing Location --------------------------------------------------------
@@ -62,7 +62,7 @@ namespace TechJobsOO.Tests
             Assert.AreEqual(2, testLocation.Id, "Second constructor not able to update Id");
             Assert.IsFalse(testLocation.Id == 4, "Second constructor passes value to Id. Is this desirable?");
         }
-        
+
 
         // Testing CoreCompetency --------------------------------------------------------
 
@@ -114,7 +114,7 @@ namespace TechJobsOO.Tests
             Assert.AreEqual("false", existsCheck, "CoreComp should not have a setter");
         }
 
-        
+
 
         // Testing PositionType --------------------------------------------------------
 
