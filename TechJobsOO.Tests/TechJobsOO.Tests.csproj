@@ -19,4 +19,12 @@
     <ProjectReference Include="..\TechJobsOOAutoGraded6\TechJobsOOAutoGraded6.csproj" />
     <ProjectReference Include="..\TechJobs.Test\TechJobs.Tests.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Update="EmptyFieldTest.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="StartsAndEndsWithNewLine.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
 </Project>
